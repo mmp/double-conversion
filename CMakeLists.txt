@@ -18,7 +18,7 @@ set(headers
     double-conversion/strtod.h
     double-conversion/utils.h)
 
-add_library(double-conversion
+add_library(double-conversion STATIC
             double-conversion/bignum.cc
             double-conversion/bignum-dtoa.cc
             double-conversion/cached-powers.cc
